@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssignup">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginLeft="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name"
+            android:textSize="20sp"
+            android:textColorLink="?attr/colorButtonNormal"
+            android:layout_marginRight="70dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/email"
+            android:textSize="20sp"
+            android:layout_marginTop="43dp"
+            android:textColorLink="?attr/colorButtonNormal"
+            android:layout_marginRight="70dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/pw"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:textColorLink="?attr/colorButtonNormal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp">
+
+        <NumberPicker
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/numberPicker"
+            android:layout_weight="0.28"
+            android:layout_marginTop="7dp"
+            tools:style="@android:style/Widget.Material.Light.NumberPicker"
+            android:focusable="false" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp">
+
+            <RadioButton
+                android:text="Type1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:text="Type2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:id="@+id/cancel"
+            android:layout_weight="1" />
+        <Button
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:id="@+id/signup"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

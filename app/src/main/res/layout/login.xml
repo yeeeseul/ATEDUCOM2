@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/llogin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="70dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/email"
+            android:textSize="22sp"
+            android:layout_marginTop="43dp"
+            android:textColorLink="?attr/colorButtonNormal" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/pw"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="70dp"
+            android:textColorLink="?attr/colorButtonNormal" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:id="@+id/cancelforlogin"
+            android:layout_weight="1" />
+        <Button
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:id="@+id/login"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

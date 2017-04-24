@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newmain">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ana"
+        android:visibility="gone"
+        android:id="@+id/anaframe">
+
+        <Button
+            android:layout_height="50dp"
+            android:background="@drawable/back"
+            android:id="@+id/backbtn"
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/cal"
+            android:layout_weight="1" />
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/ana"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/games"
+            android:layout_weight="1" />
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/mus"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/set"
+            android:layout_weight="1" />
+
+        <Button
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#00ff0000"
+            android:id="@+id/help"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

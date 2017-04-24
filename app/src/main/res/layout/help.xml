@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hhelp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/frameLayout">
+
+            <info.hoang8f.widget.FButton
+                android:text="AI Fasht Medical Centre"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_01"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_width="match_parent" />
+
+            <info.hoang8f.widget.FButton
+                android:text="Camali Clinic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_02"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_weight="1" />
+
+            <info.hoang8f.widget.FButton
+                android:text="Clinic for Health and Medical Care"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_03"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_weight="1" />
+
+            <info.hoang8f.widget.FButton
+                android:text="Cognitive Behaviour Clinic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_04"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_weight="1" />
+
+            <info.hoang8f.widget.FButton
+                android:text="Cleveland Clinic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_05"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_weight="1" />
+
+            <info.hoang8f.widget.FButton
+                android:text="Human Relations Institute and Clinics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_06"
+                app:buttonColor="@color/fbutton_color_belize_hole"
+                android:layout_weight="1" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</layout>
